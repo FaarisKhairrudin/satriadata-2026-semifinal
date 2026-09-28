@@ -146,7 +146,7 @@ docs/
 requirements.txt
 ```
 
-## Hasil run (ter-commit di repo)
+## Hasil run
 
 Semua output run final tersimpan di repo, bukan hanya kodenya:
 
