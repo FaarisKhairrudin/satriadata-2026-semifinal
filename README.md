@@ -76,8 +76,8 @@ pertama (publik, tanpa token).
 
 | Kapan | Yang dibutuhkan |
 | --- | --- |
-| Reproduksi normal 01→08 (semua pakai cache) | **Tidak butuh key apa pun** |
-| Regenerasi KEC (`03` tanpa cache / `--overwrite`) | `OPENAI_API_KEY` (GPT-4o mining konsep/atribut) |
+| Rerun 01, 02, 04–08 (offline, artefak disertakan di repo) | **Tidak butuh key apa pun** |
+| Regenerasi KEC (`03`; cache KEC ±190 MB tidak disertakan) | `OPENAI_API_KEY` (GPT-4o) + WordNet + GPU SigLIP2 |
 | Notebook 06–07 (kondisi & rekomendasi) | `BAI_API_KEY` — diminta via `getpass` saat run, tidak lewat `.env` |
 | Notebook 05 (captioning) | Tanpa key; butuh instance RunPod RTX 4090 |
 
@@ -93,17 +93,32 @@ export OPENAI_API_KEY=sk-...
 
 ## Cara pakai
 
+Dari clone baru, **seluruh hasil final sudah tersedia di repo** — label produk,
+metrik, dan figur ada di `data/processed/electronic/`, dan notebook 03–04
+memuat output tersimpan. Tidak perlu menjalankan apa pun untuk memeriksa hasil.
+
+Menjalankan ulang tahap analisis (berurutan, dari repo root, tanpa kunci API):
+
 ```bash
-# Reproduksi hasil final (berurutan, memakai cache)
-python3.12 code/scripts/01_dinov3_kmeans_baseline.py
-python3.12 code/scripts/02_drowcula_dinov3.py
-python3.12 code/scripts/03_kec_drowcula_dinov3.py
-python3.12 code/scripts/04_evaluate_clustering_spaces.py
-python3.12 code/scripts/05_kec_drowcula_cluster_figures.py
-python3.12 code/scripts/06_unukey_grounding_siglip2.py
-python3.12 code/scripts/07_cluster_risk_value_mapping.py
-python3.12 code/scripts/08_cluster_insight_figures.py
+python3.12 code/scripts/01_dinov3_kmeans_baseline.py    # offline
+python3.12 code/scripts/02_drowcula_dinov3.py           # offline
+python3.12 code/scripts/04_evaluate_clustering_spaces.py # offline
+python3.12 code/scripts/06_unukey_grounding_siglip2.py  # offline (embedding SigLIP2 disertakan)
+python3.12 code/scripts/07_cluster_risk_value_mapping.py # offline
+python3.12 code/scripts/08_cluster_insight_figures.py   # offline
 ```
+
+Dua tahap punya kebutuhan khusus:
+
+- `03_kec_drowcula_dinov3.py` — tahap pengetahuan KEC memakai GPT-4o. Cache
+  KEC lengkap (±190 MB) tidak disertakan di repo, jadi skrip akan meregenerasi
+  dan membutuhkan `OPENAI_API_KEY` + korpus WordNet (+ GPU untuk SigLIP2).
+  Setelah fusi terbentuk, UMAP → pencarian-K → K-Means berjalan deterministik
+  (seed 42).
+- `05_kec_drowcula_cluster_figures.py` — membutuhkan citra asli dataset
+  penyisihan (±1,1 GB, tidak disertakan). Letakkan sesuai path di
+  `data/processed/electronic/embedding_ids.csv`, atau jalankan dengan dataset
+  Anda sendiri.
 
 ```bash
 # Dataset citra baru → hasil di folder output pilihanmu
@@ -112,10 +127,11 @@ python3.12 code/scripts/run_full_pipeline.py \
 # varian: --mode full | --k-min 2 --k-max 25 | --stages 00,02 | --dry-run
 ```
 
-Setiap tahap menulis hasilnya ke foldernya sendiri di bawah `--output-dir`/
-`--workdir` masing-masing, lengkap dengan metrik dan figur. Label akhir per
-cluster divalidasi manusia (`final_cluster_labels.csv`) sebelum masuk tahap
-pemetaan nilai-bahaya.
+`run_full_pipeline.py` membangun semuanya dari nol untuk dataset tersebut
+(embedding lewat `00`, tanpa kunci API pada mode default). Setiap tahap
+menulis hasilnya ke foldernya sendiri di bawah `--workdir`, lengkap dengan
+metrik dan figur. Label akhir per cluster divalidasi manusia
+(`final_cluster_labels.csv`) sebelum masuk tahap pemetaan nilai-bahaya.
 
 ## Struktur
 
