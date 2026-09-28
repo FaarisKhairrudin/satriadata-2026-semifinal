@@ -1,0 +1,18 @@
+cluster,n_samples,final_label,unu_key_code,eu_category,subtype,vote_code,basis,vote_agreement
+0,281,Printers and scanners,0304,Small IT,,0304,human-verified top-9 nearest centroid,agree
+1,524,Mobile Phones and smartphones,0306,Small IT,,0306,human-verified top-9 nearest centroid,agree
+2,357,Mixed e-waste scrap pile,GAP-SCRAP,Basel Y49 / HS 8549.99,,GAP-SCRAP,human-verified top-9 nearest centroid,agree
+3,290,Keyboards and input devices,0301,Small IT,keyboards,0301,human-verified top-9 nearest centroid,agree
+4,101,Washing Machines (top-load),0104,Large equipment (excl. PV),top-load,0104,human-verified top-9 nearest centroid,agree
+5,343,Computer mice and pointing devices,0301,Small IT,mice,0301,human-verified top-9 nearest centroid,agree
+6,141,Televisions (flat-panel),0408,Screens and monitors,,0408,human-verified top-9 nearest centroid,agree
+7,242,Microwaves,0114,Small equipment,,0114,human-verified top-9 nearest centroid,agree
+8,228,Laptops and tablets,0303,Screens and monitors,,0303,human-verified top-9 nearest centroid,agree
+9,277,Portable batteries,GAP-BATT,Basel A1181 / HS 8549.21,,GAP-BATT,human-verified top-9 nearest centroid,agree
+10,122,Radio and Hi-Fi / music player boxes,0403,Small equipment,,0404/0403/0405?,human-verified top-9 nearest centroid,human correction
+11,211,"CRT Televisions (convex, old)",0407,Screens and monitors,,0407,human-verified top-9 nearest centroid,agree
+12,356,Printed circuit boards,GAP-PCB,Basel A1181 / HS 8549.31,,GAP-PCB,human-verified top-9 nearest centroid,agree
+13,196,Washing Machines (front-load),0104,Large equipment (excl. PV),front-load,0104,human-verified top-9 nearest centroid,agree
+14,105,Radio and Hi-Fi equipment,0403,Small equipment,,0403/0402/0404?,human-verified top-9 nearest centroid,agree
+15,150,Flat-Panel Display Monitors,0309,Screens and monitors,,0309,human-verified top-9 nearest centroid,agree
+16,37,Power outlets and switches (no UNU-KEY),GAP-OTHER,HS 8549.99,,0901/0701/0202?,human-verified top-9 nearest centroid,human correction

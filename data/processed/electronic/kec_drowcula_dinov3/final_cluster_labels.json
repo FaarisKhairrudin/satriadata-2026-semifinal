@@ -1,0 +1,189 @@
+{
+  "cluster_00": {
+    "cluster": 0,
+    "n_samples": 281,
+    "final_label": "Printers and scanners",
+    "unu_key_code": "0304",
+    "eu_category": "Small IT",
+    "subtype": "",
+    "vote_code": "0304",
+    "basis": "human-verified top-9 nearest centroid",
+    "vote_agreement": "agree"
+  },
+  "cluster_01": {
+    "cluster": 1,
+    "n_samples": 524,
+    "final_label": "Mobile Phones and smartphones",
+    "unu_key_code": "0306",
+    "eu_category": "Small IT",
+    "subtype": "",
+    "vote_code": "0306",
+    "basis": "human-verified top-9 nearest centroid",
+    "vote_agreement": "agree"
+  },
+  "cluster_02": {
+    "cluster": 2,
+    "n_samples": 357,
+    "final_label": "Mixed e-waste scrap pile",
+    "unu_key_code": "GAP-SCRAP",
+    "eu_category": "Basel Y49 / HS 8549.99",
+    "subtype": "",
+    "vote_code": "GAP-SCRAP",
+    "basis": "human-verified top-9 nearest centroid",
+    "vote_agreement": "agree"
+  },
+  "cluster_03": {
+    "cluster": 3,
+    "n_samples": 290,
+    "final_label": "Keyboards and input devices",
+    "unu_key_code": "0301",
+    "eu_category": "Small IT",
+    "subtype": "keyboards",
+    "vote_code": "0301",
+    "basis": "human-verified top-9 nearest centroid",
+    "vote_agreement": "agree"
+  },
+  "cluster_04": {
+    "cluster": 4,
+    "n_samples": 101,
+    "final_label": "Washing Machines (top-load)",
+    "unu_key_code": "0104",
+    "eu_category": "Large equipment (excl. PV)",
+    "subtype": "top-load",
+    "vote_code": "0104",
+    "basis": "human-verified top-9 nearest centroid",
+    "vote_agreement": "agree"
+  },
+  "cluster_05": {
+    "cluster": 5,
+    "n_samples": 343,
+    "final_label": "Computer mice and pointing devices",
+    "unu_key_code": "0301",
+    "eu_category": "Small IT",
+    "subtype": "mice",
+    "vote_code": "0301",
+    "basis": "human-verified top-9 nearest centroid",
+    "vote_agreement": "agree"
+  },
+  "cluster_06": {
+    "cluster": 6,
+    "n_samples": 141,
+    "final_label": "Televisions (flat-panel)",
+    "unu_key_code": "0408",
+    "eu_category": "Screens and monitors",
+    "subtype": "",
+    "vote_code": "0408",
+    "basis": "human-verified top-9 nearest centroid",
+    "vote_agreement": "agree"
+  },
+  "cluster_07": {
+    "cluster": 7,
+    "n_samples": 242,
+    "final_label": "Microwaves",
+    "unu_key_code": "0114",
+    "eu_category": "Small equipment",
+    "subtype": "",
+    "vote_code": "0114",
+    "basis": "human-verified top-9 nearest centroid",
+    "vote_agreement": "agree"
+  },
+  "cluster_08": {
+    "cluster": 8,
+    "n_samples": 228,
+    "final_label": "Laptops and tablets",
+    "unu_key_code": "0303",
+    "eu_category": "Screens and monitors",
+    "subtype": "",
+    "vote_code": "0303",
+    "basis": "human-verified top-9 nearest centroid",
+    "vote_agreement": "agree"
+  },
+  "cluster_09": {
+    "cluster": 9,
+    "n_samples": 277,
+    "final_label": "Portable batteries",
+    "unu_key_code": "GAP-BATT",
+    "eu_category": "Basel A1181 / HS 8549.21",
+    "subtype": "",
+    "vote_code": "GAP-BATT",
+    "basis": "human-verified top-9 nearest centroid",
+    "vote_agreement": "agree"
+  },
+  "cluster_10": {
+    "cluster": 10,
+    "n_samples": 122,
+    "final_label": "Radio and Hi-Fi / music player boxes",
+    "unu_key_code": "0403",
+    "eu_category": "Small equipment",
+    "subtype": "",
+    "vote_code": "0404/0403/0405?",
+    "basis": "human-verified top-9 nearest centroid",
+    "vote_agreement": "human correction"
+  },
+  "cluster_11": {
+    "cluster": 11,
+    "n_samples": 211,
+    "final_label": "CRT Televisions (convex, old)",
+    "unu_key_code": "0407",
+    "eu_category": "Screens and monitors",
+    "subtype": "",
+    "vote_code": "0407",
+    "basis": "human-verified top-9 nearest centroid",
+    "vote_agreement": "agree"
+  },
+  "cluster_12": {
+    "cluster": 12,
+    "n_samples": 356,
+    "final_label": "Printed circuit boards",
+    "unu_key_code": "GAP-PCB",
+    "eu_category": "Basel A1181 / HS 8549.31",
+    "subtype": "",
+    "vote_code": "GAP-PCB",
+    "basis": "human-verified top-9 nearest centroid",
+    "vote_agreement": "agree"
+  },
+  "cluster_13": {
+    "cluster": 13,
+    "n_samples": 196,
+    "final_label": "Washing Machines (front-load)",
+    "unu_key_code": "0104",
+    "eu_category": "Large equipment (excl. PV)",
+    "subtype": "front-load",
+    "vote_code": "0104",
+    "basis": "human-verified top-9 nearest centroid",
+    "vote_agreement": "agree"
+  },
+  "cluster_14": {
+    "cluster": 14,
+    "n_samples": 105,
+    "final_label": "Radio and Hi-Fi equipment",
+    "unu_key_code": "0403",
+    "eu_category": "Small equipment",
+    "subtype": "",
+    "vote_code": "0403/0402/0404?",
+    "basis": "human-verified top-9 nearest centroid",
+    "vote_agreement": "agree"
+  },
+  "cluster_15": {
+    "cluster": 15,
+    "n_samples": 150,
+    "final_label": "Flat-Panel Display Monitors",
+    "unu_key_code": "0309",
+    "eu_category": "Screens and monitors",
+    "subtype": "",
+    "vote_code": "0309",
+    "basis": "human-verified top-9 nearest centroid",
+    "vote_agreement": "agree"
+  },
+  "cluster_16": {
+    "cluster": 16,
+    "n_samples": 37,
+    "final_label": "Power outlets and switches (no UNU-KEY)",
+    "unu_key_code": "GAP-OTHER",
+    "eu_category": "HS 8549.99",
+    "subtype": "",
+    "vote_code": "0901/0701/0202?",
+    "basis": "human-verified top-9 nearest centroid",
+    "vote_agreement": "human correction"
+  }
+}

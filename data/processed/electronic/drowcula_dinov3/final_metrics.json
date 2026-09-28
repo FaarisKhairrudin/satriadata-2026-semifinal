@@ -1,0 +1,11 @@
+{
+  "calinski_harabasz": 15648.248102621788,
+  "davies_bouldin": 0.43918157772513344,
+  "inertia": 2816.49169921875,
+  "n_samples": 3961,
+  "reduced_dimensions": 3,
+  "selected_k": 17,
+  "selection_metric": "silhouette",
+  "selection_space": "UMAP-reduced L2-normalized DINOv3 embeddings",
+  "silhouette": 0.6786210536956787
+}

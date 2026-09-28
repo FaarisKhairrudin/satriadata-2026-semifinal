@@ -1,0 +1,13 @@
+{
+  "input_fingerprint_sha256": "bb0b2bddc5684a90002ba436ee43e7942ee1035c0c1599540f5120da46b9f0e7",
+  "input_shape": [
+    3961,
+    768
+  ],
+  "normalization": "row-wise L2",
+  "seed": 42,
+  "umap_metric": "euclidean",
+  "umap_min_dist": 0.1,
+  "umap_n_components": 3,
+  "umap_n_neighbors": 10
+}

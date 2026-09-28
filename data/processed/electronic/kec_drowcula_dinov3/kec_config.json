@@ -1,0 +1,18 @@
+{
+  "siglip2_model": "google/siglip2-base-patch16-256",
+  "image_embedding_shape": [
+    3961,
+    768
+  ],
+  "noun_embedding_shape": [
+    113964,
+    768
+  ],
+  "concept_count": 1,
+  "k_over": 13,
+  "alpha": 0.8,
+  "beta": 0.8,
+  "lambda1": 2,
+  "lambda2": 1,
+  "gpt_model": "gpt-4o"
+}

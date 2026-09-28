@@ -1,0 +1,13 @@
+{
+  "input_fingerprint_sha256": "5f2bae710fe2a03a335e073e1102e890fd4187edbf46b351b455ddc39f6cf4af",
+  "input_shape": [
+    3961,
+    1536
+  ],
+  "normalization": "independent row-wise L2 on DINOv3 and kappa blocks",
+  "n_components": 3,
+  "n_neighbors": 10,
+  "min_dist": 0.1,
+  "metric": "euclidean",
+  "random_state": 42
+}

@@ -1,0 +1,30 @@
+# Final pipeline requirements — DROWCULA modelling (e-waste semifinal)
+
+Python sistem: `python3.12` (tanpa virtual env, sesuai AGENTS.md).
+Versi di bawah = snapshot lingkungan aktual saat cleanup 2026-09-27.
+
+```text
+torch==2.6.0+cu124
+transformers==5.13.1
+timm==1.0.27
+umap-learn==0.5.12
+scikit-learn==1.9.0
+scipy==1.18.0
+numpy==2.3.5
+pandas==3.0.3
+matplotlib==3.11.0
+pillow==12.3.0
+tqdm==4.68.4
+nltk==3.10.3
+openai==3.13.0
+```
+
+Catatan:
+
+- `torch` varian CUDA dipakai untuk SigLIP2 (06) di GPU; CPU tetap jalan (lebih lambat).
+- `openai` + `OPENAI_API_KEY` hanya dibutuhkan bila KEC diregenerasi di 03
+  (`--overwrite` tanpa cache). Rerun normal tanpa `--overwrite` memakai cache.
+- Korpus NLTK WordNet dibutuhkan bila KEC diregenerasi di 03.
+- `captions.csv` (milik alur teman: captioning/klasifikasi kondisi) tetap di repo
+  sebagai input audit 10, tapi generator caption tidak tercatat → hasil audit
+  `caption_audit_v1` berstatus UNVERIFIED/eksplorasi, bukan bukti pelabelan utama.

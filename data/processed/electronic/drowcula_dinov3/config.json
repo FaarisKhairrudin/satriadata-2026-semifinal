@@ -1,0 +1,18 @@
+{
+  "backbone": "DINOv3 ViT-B/16",
+  "embedding_dimensions": 768,
+  "input_embeddings": "/home/varys/orca/workspaces/2026_SatriaData_SemiFinal/DROWCULA-MODELLING/data/processed/electronic/embeddings_dinov3.npy",
+  "input_fingerprint_sha256": "bb0b2bddc5684a90002ba436ee43e7942ee1035c0c1599540f5120da46b9f0e7",
+  "input_manifest": "/home/varys/orca/workspaces/2026_SatriaData_SemiFinal/DROWCULA-MODELLING/data/processed/electronic/manifest_train.csv",
+  "k_max": 25,
+  "k_min": 2,
+  "kmeans_max_iter": 10000,
+  "kmeans_n_init": 200,
+  "method_adaptation": "DROWCULA adapted from DINOv2 to existing DINOv3 embeddings",
+  "output_directory": "/home/varys/orca/workspaces/2026_SatriaData_SemiFinal/DROWCULA-MODELLING/data/processed/electronic/drowcula_dinov3",
+  "seed": 42,
+  "umap_metric": "euclidean",
+  "umap_min_dist": 0.1,
+  "umap_n_components": 3,
+  "umap_n_neighbors": 10
+}

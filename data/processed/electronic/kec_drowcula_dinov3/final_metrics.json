@@ -1,0 +1,11 @@
+{
+  "selected_k": 17,
+  "selection_metric": "silhouette",
+  "selection_space": "UMAP-reduced fused DINOv3+KEC features",
+  "silhouette": 0.6827850937843323,
+  "davies_bouldin": 0.43700556544450103,
+  "calinski_harabasz": 15591.743837684728,
+  "inertia": 2757.928955078125,
+  "n_samples": 3961,
+  "reduced_dimensions": 3
+}

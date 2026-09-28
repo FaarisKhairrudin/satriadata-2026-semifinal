@@ -1,0 +1,12 @@
+{
+  "ground_truth_status": "source_class has only one unique value; evaluation is not meaningful",
+  "k_search_range": [
+    5,
+    25
+  ],
+  "label_column_considered": null,
+  "post_clustering_evaluation_only": true,
+  "selected_k_by_silhouette": 16,
+  "selection_metric": "silhouette",
+  "selection_space": "row-wise L2-normalized DINOv3 embeddings"
+}

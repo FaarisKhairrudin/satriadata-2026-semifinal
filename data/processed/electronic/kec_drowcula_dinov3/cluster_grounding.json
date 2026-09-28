@@ -1,0 +1,1855 @@
+{
+  "cluster_00": {
+    "assigned_unu_key": {
+      "code": "0304",
+      "eu_category": "Small IT",
+      "name": "Printers and scanners, copiers"
+    },
+    "cluster_id": 0,
+    "confidence": "HIGH",
+    "coverage_gap": {
+      "code": "BATT",
+      "cosine": 0.0693407952785492,
+      "is_gap": false,
+      "name": "Portable batteries, dry cells, accumulator cells, AA AAA lithium-ion batteries"
+    },
+    "majority_vote": {
+      "distribution": [
+        {
+          "code": "0304",
+          "eu_category": "Small IT",
+          "name": "Printers and scanners, copiers",
+          "rank": 1,
+          "share": 0.9181494661921709,
+          "votes": 258
+        },
+        {
+          "code": "0404",
+          "eu_category": "Small equipment",
+          "name": "Video equipment, DVD players and projectors",
+          "rank": 2,
+          "share": 0.010676156583629894,
+          "votes": 3
+        },
+        {
+          "code": "0109",
+          "eu_category": "Temperature exchange equipment",
+          "name": "Freezers",
+          "rank": 3,
+          "share": 0.0071174377224199285,
+          "votes": 2
+        },
+        {
+          "code": "0112",
+          "eu_category": "Temperature exchange equipment",
+          "name": "Other Cooling equipment, dehumidifiers",
+          "rank": 4,
+          "share": 0.0071174377224199285,
+          "votes": 2
+        },
+        {
+          "code": "0308",
+          "eu_category": "Screens and monitors",
+          "name": "Cathode Ray Tube Monitors",
+          "rank": 5,
+          "share": 0.0071174377224199285,
+          "votes": 2
+        }
+      ],
+      "final_label": {
+        "code": "0304",
+        "eu_category": "Small IT",
+        "name": "Printers and scanners, copiers"
+      },
+      "gap_vote_share": 0.0,
+      "vote_confidence": "MAJORITY",
+      "winner": {
+        "code": "0304",
+        "name": "Printers and scanners, copiers",
+        "share": 0.9181494661921709
+      }
+    },
+    "n_samples": 281,
+    "top_matches": [
+      {
+        "code": "0304",
+        "cosine": 0.15611225366592407,
+        "eu_category": "Small IT",
+        "name": "Printers and scanners, copiers",
+        "rank": 1
+      },
+      {
+        "code": "0201",
+        "cosine": 0.1003817617893219,
+        "eu_category": "Small equipment",
+        "name": "Other small household equipment, irons and fans",
+        "rank": 2
+      },
+      {
+        "code": "0302",
+        "cosine": 0.09152665734291077,
+        "eu_category": "Small IT",
+        "name": "Desktop PCs",
+        "rank": 3
+      },
+      {
+        "code": "0202",
+        "cosine": 0.09120768308639526,
+        "eu_category": "Small equipment",
+        "name": "Equipment for food preparation, toasters and grills",
+        "rank": 4
+      },
+      {
+        "code": "0401",
+        "cosine": 0.08891730010509491,
+        "eu_category": "Small equipment",
+        "name": "Small Consumer Electronics, headphones, cameras and remote controls",
+        "rank": 5
+      }
+    ]
+  },
+  "cluster_01": {
+    "assigned_unu_key": {
+      "code": "0306",
+      "eu_category": "Small IT",
+      "name": "Mobile Phones and smartphones"
+    },
+    "cluster_id": 1,
+    "confidence": "MODERATE",
+    "coverage_gap": {
+      "code": "BATT",
+      "cosine": 0.08538498729467392,
+      "is_gap": false,
+      "name": "Portable batteries, dry cells, accumulator cells, AA AAA lithium-ion batteries"
+    },
+    "majority_vote": {
+      "distribution": [
+        {
+          "code": "0306",
+          "eu_category": "Small IT",
+          "name": "Mobile Phones and smartphones",
+          "rank": 1,
+          "share": 0.8912213740458015,
+          "votes": 467
+        },
+        {
+          "code": "0402",
+          "eu_category": "Small equipment",
+          "name": "Portable Audio and Video, MP3 players and e-readers",
+          "rank": 2,
+          "share": 0.03625954198473282,
+          "votes": 19
+        },
+        {
+          "code": "0307",
+          "eu_category": "Small IT",
+          "name": "Other IT equipment, data storage and servers",
+          "rank": 3,
+          "share": 0.02862595419847328,
+          "votes": 15
+        },
+        {
+          "code": "0404",
+          "eu_category": "Small equipment",
+          "name": "Video equipment, DVD players and projectors",
+          "rank": 4,
+          "share": 0.013358778625954198,
+          "votes": 7
+        },
+        {
+          "code": "0301",
+          "eu_category": "Small IT",
+          "name": "Small IT equipment, routers, mice and keyboards",
+          "rank": 5,
+          "share": 0.007633587786259542,
+          "votes": 4
+        }
+      ],
+      "final_label": {
+        "code": "0306",
+        "eu_category": "Small IT",
+        "name": "Mobile Phones and smartphones"
+      },
+      "gap_vote_share": 0.009541984732824428,
+      "vote_confidence": "MAJORITY",
+      "winner": {
+        "code": "0306",
+        "name": "Mobile Phones and smartphones",
+        "share": 0.8912213740458015
+      }
+    },
+    "n_samples": 524,
+    "top_matches": [
+      {
+        "code": "0306",
+        "cosine": 0.12456449866294861,
+        "eu_category": "Small IT",
+        "name": "Mobile Phones and smartphones",
+        "rank": 1
+      },
+      {
+        "code": "0402",
+        "cosine": 0.09711954742670059,
+        "eu_category": "Small equipment",
+        "name": "Portable Audio and Video, MP3 players and e-readers",
+        "rank": 2
+      },
+      {
+        "code": "0307",
+        "cosine": 0.08347774296998978,
+        "eu_category": "Small IT",
+        "name": "Other IT equipment, data storage and servers",
+        "rank": 3
+      },
+      {
+        "code": "0401",
+        "cosine": 0.08302950859069824,
+        "eu_category": "Small equipment",
+        "name": "Small Consumer Electronics, headphones, cameras and remote controls",
+        "rank": 4
+      },
+      {
+        "code": "0305",
+        "cosine": 0.08083508908748627,
+        "eu_category": "Small IT",
+        "name": "Telecommunications equipment excluding mobile phones",
+        "rank": 5
+      }
+    ]
+  },
+  "cluster_02": {
+    "assigned_unu_key": {
+      "code": "GAP-SCRAP",
+      "eu_category": "Basel/HS non-UNU e-waste stream",
+      "name": "Dismantled mixed e-waste scrap, shredded residues and casing fragments"
+    },
+    "cluster_id": 2,
+    "confidence": "HIGH (COVERAGE_GAP:SCRAP)",
+    "coverage_gap": {
+      "code": "SCRAP",
+      "cosine": 0.1602499634027481,
+      "is_gap": true,
+      "name": "Dismantled mixed e-waste scrap, shredded residues and casing fragments"
+    },
+    "majority_vote": {
+      "distribution": [
+        {
+          "code": "GAP-SCRAP",
+          "eu_category": "Basel/HS non-UNU e-waste stream",
+          "name": "Dismantled mixed e-waste scrap, shredded residues and casing fragments",
+          "rank": 1,
+          "share": 0.6694677871148459,
+          "votes": 239
+        },
+        {
+          "code": "0303",
+          "eu_category": "Screens and monitors",
+          "name": "Laptops and tablets",
+          "rank": 2,
+          "share": 0.04201680672268908,
+          "votes": 15
+        },
+        {
+          "code": "0104",
+          "eu_category": "Large equipment (excl. PV)",
+          "name": "Washing Machines and combined dryers",
+          "rank": 3,
+          "share": 0.0392156862745098,
+          "votes": 14
+        },
+        {
+          "code": "0407",
+          "eu_category": "Screens and monitors",
+          "name": "Cathode Ray Tube Televisions",
+          "rank": 4,
+          "share": 0.028011204481792718,
+          "votes": 10
+        },
+        {
+          "code": "0302",
+          "eu_category": "Small IT",
+          "name": "Desktop PCs",
+          "rank": 5,
+          "share": 0.022408963585434174,
+          "votes": 8
+        }
+      ],
+      "final_label": {
+        "code": "GAP-SCRAP",
+        "eu_category": "Basel/HS non-UNU e-waste stream",
+        "name": "Dismantled mixed e-waste scrap, shredded residues and casing fragments"
+      },
+      "gap_vote_share": 0.6778711484593838,
+      "vote_confidence": "MAJORITY (COVERAGE_GAP)",
+      "winner": {
+        "code": "GAP-SCRAP",
+        "name": "Dismantled mixed e-waste scrap, shredded residues and casing fragments",
+        "share": 0.6694677871148459
+      }
+    },
+    "n_samples": 357,
+    "top_matches": [
+      {
+        "code": "0307",
+        "cosine": 0.11921332776546478,
+        "eu_category": "Small IT",
+        "name": "Other IT equipment, data storage and servers",
+        "rank": 1
+      },
+      {
+        "code": "0309",
+        "cosine": 0.11316332966089249,
+        "eu_category": "Screens and monitors",
+        "name": "Flat-Panel Display Monitors, LCD and LED",
+        "rank": 2
+      },
+      {
+        "code": "0308",
+        "cosine": 0.10821317136287689,
+        "eu_category": "Screens and monitors",
+        "name": "Cathode Ray Tube Monitors",
+        "rank": 3
+      },
+      {
+        "code": "0302",
+        "cosine": 0.10801044851541519,
+        "eu_category": "Small IT",
+        "name": "Desktop PCs",
+        "rank": 4
+      },
+      {
+        "code": "0304",
+        "cosine": 0.1058540940284729,
+        "eu_category": "Small IT",
+        "name": "Printers and scanners, copiers",
+        "rank": 5
+      }
+    ]
+  },
+  "cluster_03": {
+    "assigned_unu_key": {
+      "code": "0301",
+      "eu_category": "Small IT",
+      "name": "Small IT equipment, routers, mice and keyboards"
+    },
+    "cluster_id": 3,
+    "confidence": "HIGH",
+    "coverage_gap": {
+      "code": "PCB",
+      "cosine": 0.06367689371109009,
+      "is_gap": false,
+      "name": "Printed circuit boards, microcircuits, motherboards and IC scrap"
+    },
+    "majority_vote": {
+      "distribution": [
+        {
+          "code": "0301",
+          "eu_category": "Small IT",
+          "name": "Small IT equipment, routers, mice and keyboards",
+          "rank": 1,
+          "share": 0.9620689655172414,
+          "votes": 279
+        },
+        {
+          "code": "0302",
+          "eu_category": "Small IT",
+          "name": "Desktop PCs",
+          "rank": 2,
+          "share": 0.017241379310344827,
+          "votes": 5
+        },
+        {
+          "code": "0002",
+          "eu_category": "Photovoltaic panels",
+          "name": "Photovoltaic Panels",
+          "rank": 3,
+          "share": 0.0034482758620689655,
+          "votes": 1
+        },
+        {
+          "code": "0202",
+          "eu_category": "Small equipment",
+          "name": "Equipment for food preparation, toasters and grills",
+          "rank": 4,
+          "share": 0.0034482758620689655,
+          "votes": 1
+        },
+        {
+          "code": "0306",
+          "eu_category": "Small IT",
+          "name": "Mobile Phones and smartphones",
+          "rank": 5,
+          "share": 0.0034482758620689655,
+          "votes": 1
+        }
+      ],
+      "final_label": {
+        "code": "0301",
+        "eu_category": "Small IT",
+        "name": "Small IT equipment, routers, mice and keyboards"
+      },
+      "gap_vote_share": 0.0,
+      "vote_confidence": "MAJORITY",
+      "winner": {
+        "code": "0301",
+        "name": "Small IT equipment, routers, mice and keyboards",
+        "share": 0.9620689655172414
+      }
+    },
+    "n_samples": 290,
+    "top_matches": [
+      {
+        "code": "0301",
+        "cosine": 0.14822472631931305,
+        "eu_category": "Small IT",
+        "name": "Small IT equipment, routers, mice and keyboards",
+        "rank": 1
+      },
+      {
+        "code": "0302",
+        "cosine": 0.10427603125572205,
+        "eu_category": "Small IT",
+        "name": "Desktop PCs",
+        "rank": 2
+      },
+      {
+        "code": "0309",
+        "cosine": 0.09330997616052628,
+        "eu_category": "Screens and monitors",
+        "name": "Flat-Panel Display Monitors, LCD and LED",
+        "rank": 3
+      },
+      {
+        "code": "0303",
+        "cosine": 0.08151528984308243,
+        "eu_category": "Screens and monitors",
+        "name": "Laptops and tablets",
+        "rank": 4
+      },
+      {
+        "code": "0702",
+        "cosine": 0.07696032524108887,
+        "eu_category": "Small IT",
+        "name": "Game Consoles",
+        "rank": 5
+      }
+    ]
+  },
+  "cluster_04": {
+    "assigned_unu_key": {
+      "code": "0104",
+      "eu_category": "Large equipment (excl. PV)",
+      "name": "Washing Machines and combined dryers"
+    },
+    "cluster_id": 4,
+    "confidence": "LOW",
+    "coverage_gap": {
+      "code": "BATT",
+      "cosine": 0.055433616042137146,
+      "is_gap": false,
+      "name": "Portable batteries, dry cells, accumulator cells, AA AAA lithium-ion batteries"
+    },
+    "majority_vote": {
+      "distribution": [
+        {
+          "code": "0104",
+          "eu_category": "Large equipment (excl. PV)",
+          "name": "Washing Machines and combined dryers",
+          "rank": 1,
+          "share": 0.7821782178217822,
+          "votes": 79
+        },
+        {
+          "code": "0105",
+          "eu_category": "Large equipment (excl. PV)",
+          "name": "Dryers and centrifuges",
+          "rank": 2,
+          "share": 0.07920792079207921,
+          "votes": 8
+        },
+        {
+          "code": "0201",
+          "eu_category": "Small equipment",
+          "name": "Other small household equipment, irons and fans",
+          "rank": 3,
+          "share": 0.04950495049504951,
+          "votes": 5
+        },
+        {
+          "code": "0001",
+          "eu_category": "Large equipment (excl. PV)",
+          "name": "Central Heating",
+          "rank": 4,
+          "share": 0.009900990099009901,
+          "votes": 1
+        },
+        {
+          "code": "0108",
+          "eu_category": "Temperature exchange equipment",
+          "name": "Refrigerators and combi-refrigerators",
+          "rank": 5,
+          "share": 0.009900990099009901,
+          "votes": 1
+        }
+      ],
+      "final_label": {
+        "code": "0104",
+        "eu_category": "Large equipment (excl. PV)",
+        "name": "Washing Machines and combined dryers"
+      },
+      "gap_vote_share": 0.0,
+      "vote_confidence": "MAJORITY",
+      "winner": {
+        "code": "0104",
+        "name": "Washing Machines and combined dryers",
+        "share": 0.7821782178217822
+      }
+    },
+    "n_samples": 101,
+    "top_matches": [
+      {
+        "code": "0104",
+        "cosine": 0.13324543833732605,
+        "eu_category": "Large equipment (excl. PV)",
+        "name": "Washing Machines and combined dryers",
+        "rank": 1
+      },
+      {
+        "code": "0105",
+        "cosine": 0.11924228817224503,
+        "eu_category": "Large equipment (excl. PV)",
+        "name": "Dryers and centrifuges",
+        "rank": 2
+      },
+      {
+        "code": "0201",
+        "cosine": 0.10966704785823822,
+        "eu_category": "Small equipment",
+        "name": "Other small household equipment, irons and fans",
+        "rank": 3
+      },
+      {
+        "code": "0109",
+        "cosine": 0.0857606753706932,
+        "eu_category": "Temperature exchange equipment",
+        "name": "Freezers",
+        "rank": 4
+      },
+      {
+        "code": "0108",
+        "cosine": 0.08465705811977386,
+        "eu_category": "Temperature exchange equipment",
+        "name": "Refrigerators and combi-refrigerators",
+        "rank": 5
+      }
+    ]
+  },
+  "cluster_05": {
+    "assigned_unu_key": {
+      "code": "0301",
+      "eu_category": "Small IT",
+      "name": "Small IT equipment, routers, mice and keyboards"
+    },
+    "cluster_id": 5,
+    "confidence": "LOW",
+    "coverage_gap": {
+      "code": "BATT",
+      "cosine": 0.07559511065483093,
+      "is_gap": false,
+      "name": "Portable batteries, dry cells, accumulator cells, AA AAA lithium-ion batteries"
+    },
+    "majority_vote": {
+      "distribution": [
+        {
+          "code": "0301",
+          "eu_category": "Small IT",
+          "name": "Small IT equipment, routers, mice and keyboards",
+          "rank": 1,
+          "share": 0.6472303206997084,
+          "votes": 222
+        },
+        {
+          "code": "0701",
+          "eu_category": "Small equipment",
+          "name": "Toys, racing sets and drones",
+          "rank": 2,
+          "share": 0.07871720116618076,
+          "votes": 27
+        },
+        {
+          "code": "0402",
+          "eu_category": "Small equipment",
+          "name": "Portable Audio and Video, MP3 players and e-readers",
+          "rank": 3,
+          "share": 0.0728862973760933,
+          "votes": 25
+        },
+        {
+          "code": "0801",
+          "eu_category": "Small equipment",
+          "name": "Household medical equipment",
+          "rank": 4,
+          "share": 0.05830903790087463,
+          "votes": 20
+        },
+        {
+          "code": "0302",
+          "eu_category": "Small IT",
+          "name": "Desktop PCs",
+          "rank": 5,
+          "share": 0.029154518950437316,
+          "votes": 10
+        }
+      ],
+      "final_label": {
+        "code": "0301",
+        "eu_category": "Small IT",
+        "name": "Small IT equipment, routers, mice and keyboards"
+      },
+      "gap_vote_share": 0.0029154518950437317,
+      "vote_confidence": "MAJORITY",
+      "winner": {
+        "code": "0301",
+        "name": "Small IT equipment, routers, mice and keyboards",
+        "share": 0.6472303206997084
+      }
+    },
+    "n_samples": 343,
+    "top_matches": [
+      {
+        "code": "0301",
+        "cosine": 0.11028566211462021,
+        "eu_category": "Small IT",
+        "name": "Small IT equipment, routers, mice and keyboards",
+        "rank": 1
+      },
+      {
+        "code": "0302",
+        "cosine": 0.09955209493637085,
+        "eu_category": "Small IT",
+        "name": "Desktop PCs",
+        "rank": 2
+      },
+      {
+        "code": "0701",
+        "cosine": 0.0954514890909195,
+        "eu_category": "Small equipment",
+        "name": "Toys, racing sets and drones",
+        "rank": 3
+      },
+      {
+        "code": "0402",
+        "cosine": 0.09380853176116943,
+        "eu_category": "Small equipment",
+        "name": "Portable Audio and Video, MP3 players and e-readers",
+        "rank": 4
+      },
+      {
+        "code": "0309",
+        "cosine": 0.09070821106433868,
+        "eu_category": "Screens and monitors",
+        "name": "Flat-Panel Display Monitors, LCD and LED",
+        "rank": 5
+      }
+    ]
+  },
+  "cluster_06": {
+    "assigned_unu_key": {
+      "code": "0408",
+      "eu_category": "Screens and monitors",
+      "name": "Flat-Panel Display TVs, LCD and LED"
+    },
+    "cluster_id": 6,
+    "confidence": "MODERATE",
+    "coverage_gap": {
+      "code": "BATT",
+      "cosine": 0.05027133226394653,
+      "is_gap": false,
+      "name": "Portable batteries, dry cells, accumulator cells, AA AAA lithium-ion batteries"
+    },
+    "majority_vote": {
+      "distribution": [
+        {
+          "code": "0408",
+          "eu_category": "Screens and monitors",
+          "name": "Flat-Panel Display TVs, LCD and LED",
+          "rank": 1,
+          "share": 0.8156028368794326,
+          "votes": 115
+        },
+        {
+          "code": "0309",
+          "eu_category": "Screens and monitors",
+          "name": "Flat-Panel Display Monitors, LCD and LED",
+          "rank": 2,
+          "share": 0.05673758865248227,
+          "votes": 8
+        },
+        {
+          "code": "0407",
+          "eu_category": "Screens and monitors",
+          "name": "Cathode Ray Tube Televisions",
+          "rank": 3,
+          "share": 0.05673758865248227,
+          "votes": 8
+        },
+        {
+          "code": "0308",
+          "eu_category": "Screens and monitors",
+          "name": "Cathode Ray Tube Monitors",
+          "rank": 4,
+          "share": 0.0425531914893617,
+          "votes": 6
+        },
+        {
+          "code": "0505",
+          "eu_category": "Lamps",
+          "name": "LED Lamps",
+          "rank": 5,
+          "share": 0.0070921985815602835,
+          "votes": 1
+        }
+      ],
+      "final_label": {
+        "code": "0408",
+        "eu_category": "Screens and monitors",
+        "name": "Flat-Panel Display TVs, LCD and LED"
+      },
+      "gap_vote_share": 0.0,
+      "vote_confidence": "MAJORITY",
+      "winner": {
+        "code": "0408",
+        "name": "Flat-Panel Display TVs, LCD and LED",
+        "share": 0.8156028368794326
+      }
+    },
+    "n_samples": 141,
+    "top_matches": [
+      {
+        "code": "0408",
+        "cosine": 0.15056316554546356,
+        "eu_category": "Screens and monitors",
+        "name": "Flat-Panel Display TVs, LCD and LED",
+        "rank": 1
+      },
+      {
+        "code": "0407",
+        "cosine": 0.12710264325141907,
+        "eu_category": "Screens and monitors",
+        "name": "Cathode Ray Tube Televisions",
+        "rank": 2
+      },
+      {
+        "code": "0309",
+        "cosine": 0.12300584465265274,
+        "eu_category": "Screens and monitors",
+        "name": "Flat-Panel Display Monitors, LCD and LED",
+        "rank": 3
+      },
+      {
+        "code": "0308",
+        "cosine": 0.11143554002046585,
+        "eu_category": "Screens and monitors",
+        "name": "Cathode Ray Tube Monitors",
+        "rank": 4
+      },
+      {
+        "code": "0404",
+        "cosine": 0.10891833901405334,
+        "eu_category": "Small equipment",
+        "name": "Video equipment, DVD players and projectors",
+        "rank": 5
+      }
+    ]
+  },
+  "cluster_07": {
+    "assigned_unu_key": {
+      "code": "0114",
+      "eu_category": "Small equipment",
+      "name": "Microwaves"
+    },
+    "cluster_id": 7,
+    "confidence": "HIGH",
+    "coverage_gap": {
+      "code": "BATT",
+      "cosine": 0.04552605375647545,
+      "is_gap": false,
+      "name": "Portable batteries, dry cells, accumulator cells, AA AAA lithium-ion batteries"
+    },
+    "majority_vote": {
+      "distribution": [
+        {
+          "code": "0114",
+          "eu_category": "Small equipment",
+          "name": "Microwaves",
+          "rank": 1,
+          "share": 0.8884297520661157,
+          "votes": 215
+        },
+        {
+          "code": "0103",
+          "eu_category": "Large equipment (excl. PV)",
+          "name": "Kitchen equipment, large furnaces and ovens",
+          "rank": 2,
+          "share": 0.06611570247933884,
+          "votes": 16
+        },
+        {
+          "code": "0404",
+          "eu_category": "Small equipment",
+          "name": "Video equipment, DVD players and projectors",
+          "rank": 3,
+          "share": 0.012396694214876033,
+          "votes": 3
+        },
+        {
+          "code": "0408",
+          "eu_category": "Screens and monitors",
+          "name": "Flat-Panel Display TVs, LCD and LED",
+          "rank": 4,
+          "share": 0.008264462809917356,
+          "votes": 2
+        },
+        {
+          "code": "0112",
+          "eu_category": "Temperature exchange equipment",
+          "name": "Other Cooling equipment, dehumidifiers",
+          "rank": 5,
+          "share": 0.004132231404958678,
+          "votes": 1
+        }
+      ],
+      "final_label": {
+        "code": "0114",
+        "eu_category": "Small equipment",
+        "name": "Microwaves"
+      },
+      "gap_vote_share": 0.0,
+      "vote_confidence": "MAJORITY",
+      "winner": {
+        "code": "0114",
+        "name": "Microwaves",
+        "share": 0.8884297520661157
+      }
+    },
+    "n_samples": 242,
+    "top_matches": [
+      {
+        "code": "0114",
+        "cosine": 0.15442943572998047,
+        "eu_category": "Small equipment",
+        "name": "Microwaves",
+        "rank": 1
+      },
+      {
+        "code": "0103",
+        "cosine": 0.11392560601234436,
+        "eu_category": "Large equipment (excl. PV)",
+        "name": "Kitchen equipment, large furnaces and ovens",
+        "rank": 2
+      },
+      {
+        "code": "0201",
+        "cosine": 0.11166812479496002,
+        "eu_category": "Small equipment",
+        "name": "Other small household equipment, irons and fans",
+        "rank": 3
+      },
+      {
+        "code": "0202",
+        "cosine": 0.0939827710390091,
+        "eu_category": "Small equipment",
+        "name": "Equipment for food preparation, toasters and grills",
+        "rank": 4
+      },
+      {
+        "code": "0109",
+        "cosine": 0.08831040561199188,
+        "eu_category": "Temperature exchange equipment",
+        "name": "Freezers",
+        "rank": 5
+      }
+    ]
+  },
+  "cluster_08": {
+    "assigned_unu_key": {
+      "code": "0303",
+      "eu_category": "Screens and monitors",
+      "name": "Laptops and tablets"
+    },
+    "cluster_id": 8,
+    "confidence": "MODERATE",
+    "coverage_gap": {
+      "code": "BATT",
+      "cosine": 0.07721903920173645,
+      "is_gap": false,
+      "name": "Portable batteries, dry cells, accumulator cells, AA AAA lithium-ion batteries"
+    },
+    "majority_vote": {
+      "distribution": [
+        {
+          "code": "0303",
+          "eu_category": "Screens and monitors",
+          "name": "Laptops and tablets",
+          "rank": 1,
+          "share": 0.8464912280701754,
+          "votes": 193
+        },
+        {
+          "code": "0301",
+          "eu_category": "Small IT",
+          "name": "Small IT equipment, routers, mice and keyboards",
+          "rank": 2,
+          "share": 0.07894736842105263,
+          "votes": 18
+        },
+        {
+          "code": "GAP-SCRAP",
+          "eu_category": "Basel/HS non-UNU e-waste stream",
+          "name": "Dismantled mixed e-waste scrap, shredded residues and casing fragments",
+          "rank": 3,
+          "share": 0.03508771929824561,
+          "votes": 8
+        },
+        {
+          "code": "0305",
+          "eu_category": "Small IT",
+          "name": "Telecommunications equipment excluding mobile phones",
+          "rank": 4,
+          "share": 0.008771929824561403,
+          "votes": 2
+        },
+        {
+          "code": "0404",
+          "eu_category": "Small equipment",
+          "name": "Video equipment, DVD players and projectors",
+          "rank": 5,
+          "share": 0.008771929824561403,
+          "votes": 2
+        }
+      ],
+      "final_label": {
+        "code": "0303",
+        "eu_category": "Screens and monitors",
+        "name": "Laptops and tablets"
+      },
+      "gap_vote_share": 0.043859649122807015,
+      "vote_confidence": "MAJORITY",
+      "winner": {
+        "code": "0303",
+        "name": "Laptops and tablets",
+        "share": 0.8464912280701754
+      }
+    },
+    "n_samples": 228,
+    "top_matches": [
+      {
+        "code": "0303",
+        "cosine": 0.14194101095199585,
+        "eu_category": "Screens and monitors",
+        "name": "Laptops and tablets",
+        "rank": 1
+      },
+      {
+        "code": "0301",
+        "cosine": 0.10846257209777832,
+        "eu_category": "Small IT",
+        "name": "Small IT equipment, routers, mice and keyboards",
+        "rank": 2
+      },
+      {
+        "code": "0302",
+        "cosine": 0.1067369133234024,
+        "eu_category": "Small IT",
+        "name": "Desktop PCs",
+        "rank": 3
+      },
+      {
+        "code": "0309",
+        "cosine": 0.1032046526670456,
+        "eu_category": "Screens and monitors",
+        "name": "Flat-Panel Display Monitors, LCD and LED",
+        "rank": 4
+      },
+      {
+        "code": "0307",
+        "cosine": 0.09946683049201965,
+        "eu_category": "Small IT",
+        "name": "Other IT equipment, data storage and servers",
+        "rank": 5
+      }
+    ]
+  },
+  "cluster_09": {
+    "assigned_unu_key": {
+      "code": "GAP-BATT",
+      "eu_category": "Basel/HS non-UNU e-waste stream",
+      "name": "Portable batteries, dry cells, accumulator cells, AA AAA lithium-ion batteries"
+    },
+    "cluster_id": 9,
+    "confidence": "HIGH (COVERAGE_GAP:BATT)",
+    "coverage_gap": {
+      "code": "BATT",
+      "cosine": 0.12983612716197968,
+      "is_gap": true,
+      "name": "Portable batteries, dry cells, accumulator cells, AA AAA lithium-ion batteries"
+    },
+    "majority_vote": {
+      "distribution": [
+        {
+          "code": "GAP-BATT",
+          "eu_category": "Basel/HS non-UNU e-waste stream",
+          "name": "Portable batteries, dry cells, accumulator cells, AA AAA lithium-ion batteries",
+          "rank": 1,
+          "share": 0.7581227436823105,
+          "votes": 210
+        },
+        {
+          "code": "0404",
+          "eu_category": "Small equipment",
+          "name": "Video equipment, DVD players and projectors",
+          "rank": 2,
+          "share": 0.09747292418772563,
+          "votes": 27
+        },
+        {
+          "code": "0301",
+          "eu_category": "Small IT",
+          "name": "Small IT equipment, routers, mice and keyboards",
+          "rank": 3,
+          "share": 0.039711191335740074,
+          "votes": 11
+        },
+        {
+          "code": "0304",
+          "eu_category": "Small IT",
+          "name": "Printers and scanners, copiers",
+          "rank": 4,
+          "share": 0.010830324909747292,
+          "votes": 3
+        },
+        {
+          "code": "0402",
+          "eu_category": "Small equipment",
+          "name": "Portable Audio and Video, MP3 players and e-readers",
+          "rank": 5,
+          "share": 0.010830324909747292,
+          "votes": 3
+        }
+      ],
+      "final_label": {
+        "code": "GAP-BATT",
+        "eu_category": "Basel/HS non-UNU e-waste stream",
+        "name": "Portable batteries, dry cells, accumulator cells, AA AAA lithium-ion batteries"
+      },
+      "gap_vote_share": 0.7689530685920578,
+      "vote_confidence": "MAJORITY (COVERAGE_GAP)",
+      "winner": {
+        "code": "GAP-BATT",
+        "name": "Portable batteries, dry cells, accumulator cells, AA AAA lithium-ion batteries",
+        "share": 0.7581227436823105
+      }
+    },
+    "n_samples": 277,
+    "top_matches": [
+      {
+        "code": "0307",
+        "cosine": 0.08267706632614136,
+        "eu_category": "Small IT",
+        "name": "Other IT equipment, data storage and servers",
+        "rank": 1
+      },
+      {
+        "code": "0409",
+        "cosine": 0.07759697735309601,
+        "eu_category": "Small equipment",
+        "name": "E-cigarettes and vaporising devices",
+        "rank": 2
+      },
+      {
+        "code": "0701",
+        "cosine": 0.07689253985881805,
+        "eu_category": "Small equipment",
+        "name": "Toys, racing sets and drones",
+        "rank": 3
+      },
+      {
+        "code": "0402",
+        "cosine": 0.07594015449285507,
+        "eu_category": "Small equipment",
+        "name": "Portable Audio and Video, MP3 players and e-readers",
+        "rank": 4
+      },
+      {
+        "code": "0703",
+        "cosine": 0.07463140785694122,
+        "eu_category": "Large equipment (excl. PV)",
+        "name": "Leisure equipment",
+        "rank": 5
+      }
+    ]
+  },
+  "cluster_10": {
+    "assigned_unu_key": {
+      "code": "0404",
+      "eu_category": "Small equipment",
+      "name": "Video equipment, DVD players and projectors"
+    },
+    "cluster_id": 10,
+    "confidence": "LOW",
+    "coverage_gap": {
+      "code": "BATT",
+      "cosine": 0.05253330618143082,
+      "is_gap": false,
+      "name": "Portable batteries, dry cells, accumulator cells, AA AAA lithium-ion batteries"
+    },
+    "majority_vote": {
+      "distribution": [
+        {
+          "code": "0404",
+          "eu_category": "Small equipment",
+          "name": "Video equipment, DVD players and projectors",
+          "rank": 1,
+          "share": 0.4098360655737705,
+          "votes": 50
+        },
+        {
+          "code": "0403",
+          "eu_category": "Small equipment",
+          "name": "Music Instruments, Radio and Hi-Fi equipment",
+          "rank": 2,
+          "share": 0.26229508196721313,
+          "votes": 32
+        },
+        {
+          "code": "0405",
+          "eu_category": "Small equipment",
+          "name": "Speakers",
+          "rank": 3,
+          "share": 0.11475409836065574,
+          "votes": 14
+        },
+        {
+          "code": "0701",
+          "eu_category": "Small equipment",
+          "name": "Toys, racing sets and drones",
+          "rank": 4,
+          "share": 0.10655737704918032,
+          "votes": 13
+        },
+        {
+          "code": "0201",
+          "eu_category": "Small equipment",
+          "name": "Other small household equipment, irons and fans",
+          "rank": 5,
+          "share": 0.040983606557377046,
+          "votes": 5
+        }
+      ],
+      "final_label": {
+        "code": "0404/0403/0405?",
+        "eu_category": "-",
+        "name": "mixed cluster (multi-candidate)"
+      },
+      "gap_vote_share": 0.00819672131147541,
+      "vote_confidence": "PLURALITY",
+      "winner": {
+        "code": "0404",
+        "name": "Video equipment, DVD players and projectors",
+        "share": 0.4098360655737705
+      }
+    },
+    "n_samples": 122,
+    "top_matches": [
+      {
+        "code": "0404",
+        "cosine": 0.11040299385786057,
+        "eu_category": "Small equipment",
+        "name": "Video equipment, DVD players and projectors",
+        "rank": 1
+      },
+      {
+        "code": "0403",
+        "cosine": 0.10641175508499146,
+        "eu_category": "Small equipment",
+        "name": "Music Instruments, Radio and Hi-Fi equipment",
+        "rank": 2
+      },
+      {
+        "code": "0402",
+        "cosine": 0.10240276902914047,
+        "eu_category": "Small equipment",
+        "name": "Portable Audio and Video, MP3 players and e-readers",
+        "rank": 3
+      },
+      {
+        "code": "0701",
+        "cosine": 0.09391453117132187,
+        "eu_category": "Small equipment",
+        "name": "Toys, racing sets and drones",
+        "rank": 4
+      },
+      {
+        "code": "0201",
+        "cosine": 0.09314996004104614,
+        "eu_category": "Small equipment",
+        "name": "Other small household equipment, irons and fans",
+        "rank": 5
+      }
+    ]
+  },
+  "cluster_11": {
+    "assigned_unu_key": {
+      "code": "0407",
+      "eu_category": "Screens and monitors",
+      "name": "Cathode Ray Tube Televisions"
+    },
+    "cluster_id": 11,
+    "confidence": "MODERATE",
+    "coverage_gap": {
+      "code": "SCRAP",
+      "cosine": 0.08319350332021713,
+      "is_gap": false,
+      "name": "Dismantled mixed e-waste scrap, shredded residues and casing fragments"
+    },
+    "majority_vote": {
+      "distribution": [
+        {
+          "code": "0407",
+          "eu_category": "Screens and monitors",
+          "name": "Cathode Ray Tube Televisions",
+          "rank": 1,
+          "share": 0.7393364928909952,
+          "votes": 156
+        },
+        {
+          "code": "0308",
+          "eu_category": "Screens and monitors",
+          "name": "Cathode Ray Tube Monitors",
+          "rank": 2,
+          "share": 0.12796208530805686,
+          "votes": 27
+        },
+        {
+          "code": "GAP-SCRAP",
+          "eu_category": "Basel/HS non-UNU e-waste stream",
+          "name": "Dismantled mixed e-waste scrap, shredded residues and casing fragments",
+          "rank": 3,
+          "share": 0.08530805687203792,
+          "votes": 18
+        },
+        {
+          "code": "0408",
+          "eu_category": "Screens and monitors",
+          "name": "Flat-Panel Display TVs, LCD and LED",
+          "rank": 4,
+          "share": 0.018957345971563982,
+          "votes": 4
+        },
+        {
+          "code": "0403",
+          "eu_category": "Small equipment",
+          "name": "Music Instruments, Radio and Hi-Fi equipment",
+          "rank": 5,
+          "share": 0.009478672985781991,
+          "votes": 2
+        }
+      ],
+      "final_label": {
+        "code": "0407",
+        "eu_category": "Screens and monitors",
+        "name": "Cathode Ray Tube Televisions"
+      },
+      "gap_vote_share": 0.08530805687203792,
+      "vote_confidence": "MAJORITY",
+      "winner": {
+        "code": "0407",
+        "name": "Cathode Ray Tube Televisions",
+        "share": 0.7393364928909952
+      }
+    },
+    "n_samples": 211,
+    "top_matches": [
+      {
+        "code": "0407",
+        "cosine": 0.17014235258102417,
+        "eu_category": "Screens and monitors",
+        "name": "Cathode Ray Tube Televisions",
+        "rank": 1
+      },
+      {
+        "code": "0308",
+        "cosine": 0.15385225415229797,
+        "eu_category": "Screens and monitors",
+        "name": "Cathode Ray Tube Monitors",
+        "rank": 2
+      },
+      {
+        "code": "0408",
+        "cosine": 0.14176148176193237,
+        "eu_category": "Screens and monitors",
+        "name": "Flat-Panel Display TVs, LCD and LED",
+        "rank": 3
+      },
+      {
+        "code": "0309",
+        "cosine": 0.1320616900920868,
+        "eu_category": "Screens and monitors",
+        "name": "Flat-Panel Display Monitors, LCD and LED",
+        "rank": 4
+      },
+      {
+        "code": "0404",
+        "cosine": 0.11095942556858063,
+        "eu_category": "Small equipment",
+        "name": "Video equipment, DVD players and projectors",
+        "rank": 5
+      }
+    ]
+  },
+  "cluster_12": {
+    "assigned_unu_key": {
+      "code": "GAP-PCB",
+      "eu_category": "Basel/HS non-UNU e-waste stream",
+      "name": "Printed circuit boards, microcircuits, motherboards and IC scrap"
+    },
+    "cluster_id": 12,
+    "confidence": "HIGH (COVERAGE_GAP:PCB)",
+    "coverage_gap": {
+      "code": "PCB",
+      "cosine": 0.15718212723731995,
+      "is_gap": true,
+      "name": "Printed circuit boards, microcircuits, motherboards and IC scrap"
+    },
+    "majority_vote": {
+      "distribution": [
+        {
+          "code": "GAP-PCB",
+          "eu_category": "Basel/HS non-UNU e-waste stream",
+          "name": "Printed circuit boards, microcircuits, motherboards and IC scrap",
+          "rank": 1,
+          "share": 0.6713483146067416,
+          "votes": 239
+        },
+        {
+          "code": "GAP-SCRAP",
+          "eu_category": "Basel/HS non-UNU e-waste stream",
+          "name": "Dismantled mixed e-waste scrap, shredded residues and casing fragments",
+          "rank": 2,
+          "share": 0.25,
+          "votes": 89
+        },
+        {
+          "code": "0307",
+          "eu_category": "Small IT",
+          "name": "Other IT equipment, data storage and servers",
+          "rank": 3,
+          "share": 0.03089887640449438,
+          "votes": 11
+        },
+        {
+          "code": "0303",
+          "eu_category": "Screens and monitors",
+          "name": "Laptops and tablets",
+          "rank": 4,
+          "share": 0.014044943820224719,
+          "votes": 5
+        },
+        {
+          "code": "0402",
+          "eu_category": "Small equipment",
+          "name": "Portable Audio and Video, MP3 players and e-readers",
+          "rank": 5,
+          "share": 0.0056179775280898875,
+          "votes": 2
+        }
+      ],
+      "final_label": {
+        "code": "GAP-PCB",
+        "eu_category": "Basel/HS non-UNU e-waste stream",
+        "name": "Printed circuit boards, microcircuits, motherboards and IC scrap"
+      },
+      "gap_vote_share": 0.9241573033707865,
+      "vote_confidence": "MAJORITY (COVERAGE_GAP)",
+      "winner": {
+        "code": "GAP-PCB",
+        "name": "Printed circuit boards, microcircuits, motherboards and IC scrap",
+        "share": 0.6713483146067416
+      }
+    },
+    "n_samples": 356,
+    "top_matches": [
+      {
+        "code": "0307",
+        "cosine": 0.12309049069881439,
+        "eu_category": "Small IT",
+        "name": "Other IT equipment, data storage and servers",
+        "rank": 1
+      },
+      {
+        "code": "0701",
+        "cosine": 0.10883186757564545,
+        "eu_category": "Small equipment",
+        "name": "Toys, racing sets and drones",
+        "rank": 2
+      },
+      {
+        "code": "0902",
+        "cosine": 0.10454824566841125,
+        "eu_category": "Large equipment (excl. PV)",
+        "name": "Professional Monitoring and Control",
+        "rank": 3
+      },
+      {
+        "code": "0301",
+        "cosine": 0.10394024848937988,
+        "eu_category": "Small IT",
+        "name": "Small IT equipment, routers, mice and keyboards",
+        "rank": 4
+      },
+      {
+        "code": "0702",
+        "cosine": 0.10279758274555206,
+        "eu_category": "Small IT",
+        "name": "Game Consoles",
+        "rank": 5
+      }
+    ]
+  },
+  "cluster_13": {
+    "assigned_unu_key": {
+      "code": "0104",
+      "eu_category": "Large equipment (excl. PV)",
+      "name": "Washing Machines and combined dryers"
+    },
+    "cluster_id": 13,
+    "confidence": "LOW",
+    "coverage_gap": {
+      "code": "BATT",
+      "cosine": 0.050024110823869705,
+      "is_gap": false,
+      "name": "Portable batteries, dry cells, accumulator cells, AA AAA lithium-ion batteries"
+    },
+    "majority_vote": {
+      "distribution": [
+        {
+          "code": "0104",
+          "eu_category": "Large equipment (excl. PV)",
+          "name": "Washing Machines and combined dryers",
+          "rank": 1,
+          "share": 0.8112244897959183,
+          "votes": 159
+        },
+        {
+          "code": "0105",
+          "eu_category": "Large equipment (excl. PV)",
+          "name": "Dryers and centrifuges",
+          "rank": 2,
+          "share": 0.16326530612244897,
+          "votes": 32
+        },
+        {
+          "code": "0402",
+          "eu_category": "Small equipment",
+          "name": "Portable Audio and Video, MP3 players and e-readers",
+          "rank": 3,
+          "share": 0.015306122448979591,
+          "votes": 3
+        },
+        {
+          "code": "0405",
+          "eu_category": "Small equipment",
+          "name": "Speakers",
+          "rank": 4,
+          "share": 0.00510204081632653,
+          "votes": 1
+        },
+        {
+          "code": "0505",
+          "eu_category": "Lamps",
+          "name": "LED Lamps",
+          "rank": 5,
+          "share": 0.00510204081632653,
+          "votes": 1
+        }
+      ],
+      "final_label": {
+        "code": "0104",
+        "eu_category": "Large equipment (excl. PV)",
+        "name": "Washing Machines and combined dryers"
+      },
+      "gap_vote_share": 0.0,
+      "vote_confidence": "MAJORITY",
+      "winner": {
+        "code": "0104",
+        "name": "Washing Machines and combined dryers",
+        "share": 0.8112244897959183
+      }
+    },
+    "n_samples": 196,
+    "top_matches": [
+      {
+        "code": "0104",
+        "cosine": 0.1403116136789322,
+        "eu_category": "Large equipment (excl. PV)",
+        "name": "Washing Machines and combined dryers",
+        "rank": 1
+      },
+      {
+        "code": "0105",
+        "cosine": 0.13057516515254974,
+        "eu_category": "Large equipment (excl. PV)",
+        "name": "Dryers and centrifuges",
+        "rank": 2
+      },
+      {
+        "code": "0201",
+        "cosine": 0.1040777638554573,
+        "eu_category": "Small equipment",
+        "name": "Other small household equipment, irons and fans",
+        "rank": 3
+      },
+      {
+        "code": "0102",
+        "cosine": 0.0881539136171341,
+        "eu_category": "Large equipment (excl. PV)",
+        "name": "Dishwashers",
+        "rank": 4
+      },
+      {
+        "code": "0112",
+        "cosine": 0.07986193150281906,
+        "eu_category": "Temperature exchange equipment",
+        "name": "Other Cooling equipment, dehumidifiers",
+        "rank": 5
+      }
+    ]
+  },
+  "cluster_14": {
+    "assigned_unu_key": {
+      "code": "0402",
+      "eu_category": "Small equipment",
+      "name": "Portable Audio and Video, MP3 players and e-readers"
+    },
+    "cluster_id": 14,
+    "confidence": "LOW",
+    "coverage_gap": {
+      "code": "BATT",
+      "cosine": 0.055648595094680786,
+      "is_gap": false,
+      "name": "Portable batteries, dry cells, accumulator cells, AA AAA lithium-ion batteries"
+    },
+    "majority_vote": {
+      "distribution": [
+        {
+          "code": "0403",
+          "eu_category": "Small equipment",
+          "name": "Music Instruments, Radio and Hi-Fi equipment",
+          "rank": 1,
+          "share": 0.47619047619047616,
+          "votes": 50
+        },
+        {
+          "code": "0402",
+          "eu_category": "Small equipment",
+          "name": "Portable Audio and Video, MP3 players and e-readers",
+          "rank": 2,
+          "share": 0.3142857142857143,
+          "votes": 33
+        },
+        {
+          "code": "0404",
+          "eu_category": "Small equipment",
+          "name": "Video equipment, DVD players and projectors",
+          "rank": 3,
+          "share": 0.13333333333333333,
+          "votes": 14
+        },
+        {
+          "code": "0201",
+          "eu_category": "Small equipment",
+          "name": "Other small household equipment, irons and fans",
+          "rank": 4,
+          "share": 0.01904761904761905,
+          "votes": 2
+        },
+        {
+          "code": "0204",
+          "eu_category": "Small equipment",
+          "name": "Vacuum Cleaners",
+          "rank": 5,
+          "share": 0.01904761904761905,
+          "votes": 2
+        }
+      ],
+      "final_label": {
+        "code": "0403/0402/0404?",
+        "eu_category": "-",
+        "name": "mixed cluster (multi-candidate)"
+      },
+      "gap_vote_share": 0.0,
+      "vote_confidence": "PLURALITY",
+      "winner": {
+        "code": "0403",
+        "name": "Music Instruments, Radio and Hi-Fi equipment",
+        "share": 0.47619047619047616
+      }
+    },
+    "n_samples": 105,
+    "top_matches": [
+      {
+        "code": "0402",
+        "cosine": 0.13243243098258972,
+        "eu_category": "Small equipment",
+        "name": "Portable Audio and Video, MP3 players and e-readers",
+        "rank": 1
+      },
+      {
+        "code": "0403",
+        "cosine": 0.12316244840621948,
+        "eu_category": "Small equipment",
+        "name": "Music Instruments, Radio and Hi-Fi equipment",
+        "rank": 2
+      },
+      {
+        "code": "0404",
+        "cosine": 0.12136721611022949,
+        "eu_category": "Small equipment",
+        "name": "Video equipment, DVD players and projectors",
+        "rank": 3
+      },
+      {
+        "code": "0201",
+        "cosine": 0.1005767285823822,
+        "eu_category": "Small equipment",
+        "name": "Other small household equipment, irons and fans",
+        "rank": 4
+      },
+      {
+        "code": "0405",
+        "cosine": 0.09312675148248672,
+        "eu_category": "Small equipment",
+        "name": "Speakers",
+        "rank": 5
+      }
+    ]
+  },
+  "cluster_15": {
+    "assigned_unu_key": {
+      "code": "0309",
+      "eu_category": "Screens and monitors",
+      "name": "Flat-Panel Display Monitors, LCD and LED"
+    },
+    "cluster_id": 15,
+    "confidence": "LOW",
+    "coverage_gap": {
+      "code": "BATT",
+      "cosine": 0.0650864988565445,
+      "is_gap": false,
+      "name": "Portable batteries, dry cells, accumulator cells, AA AAA lithium-ion batteries"
+    },
+    "majority_vote": {
+      "distribution": [
+        {
+          "code": "0309",
+          "eu_category": "Screens and monitors",
+          "name": "Flat-Panel Display Monitors, LCD and LED",
+          "rank": 1,
+          "share": 0.5466666666666666,
+          "votes": 82
+        },
+        {
+          "code": "0302",
+          "eu_category": "Small IT",
+          "name": "Desktop PCs",
+          "rank": 2,
+          "share": 0.18666666666666668,
+          "votes": 28
+        },
+        {
+          "code": "0408",
+          "eu_category": "Screens and monitors",
+          "name": "Flat-Panel Display TVs, LCD and LED",
+          "rank": 3,
+          "share": 0.14,
+          "votes": 21
+        },
+        {
+          "code": "0308",
+          "eu_category": "Screens and monitors",
+          "name": "Cathode Ray Tube Monitors",
+          "rank": 4,
+          "share": 0.08,
+          "votes": 12
+        },
+        {
+          "code": "0407",
+          "eu_category": "Screens and monitors",
+          "name": "Cathode Ray Tube Televisions",
+          "rank": 5,
+          "share": 0.03333333333333333,
+          "votes": 5
+        }
+      ],
+      "final_label": {
+        "code": "0309",
+        "eu_category": "Screens and monitors",
+        "name": "Flat-Panel Display Monitors, LCD and LED"
+      },
+      "gap_vote_share": 0.0,
+      "vote_confidence": "MAJORITY",
+      "winner": {
+        "code": "0309",
+        "name": "Flat-Panel Display Monitors, LCD and LED",
+        "share": 0.5466666666666666
+      }
+    },
+    "n_samples": 150,
+    "top_matches": [
+      {
+        "code": "0309",
+        "cosine": 0.15237464010715485,
+        "eu_category": "Screens and monitors",
+        "name": "Flat-Panel Display Monitors, LCD and LED",
+        "rank": 1
+      },
+      {
+        "code": "0308",
+        "cosine": 0.1382904350757599,
+        "eu_category": "Screens and monitors",
+        "name": "Cathode Ray Tube Monitors",
+        "rank": 2
+      },
+      {
+        "code": "0302",
+        "cosine": 0.13747255504131317,
+        "eu_category": "Small IT",
+        "name": "Desktop PCs",
+        "rank": 3
+      },
+      {
+        "code": "0408",
+        "cosine": 0.12573425471782684,
+        "eu_category": "Screens and monitors",
+        "name": "Flat-Panel Display TVs, LCD and LED",
+        "rank": 4
+      },
+      {
+        "code": "0407",
+        "cosine": 0.10881626605987549,
+        "eu_category": "Screens and monitors",
+        "name": "Cathode Ray Tube Televisions",
+        "rank": 5
+      }
+    ]
+  },
+  "cluster_16": {
+    "assigned_unu_key": {
+      "code": "0901",
+      "eu_category": "Small equipment",
+      "name": "Household Monitoring and Control, smoke detectors and thermostats"
+    },
+    "cluster_id": 16,
+    "confidence": "LOW",
+    "coverage_gap": {
+      "code": "BATT",
+      "cosine": 0.09383922815322876,
+      "is_gap": false,
+      "name": "Portable batteries, dry cells, accumulator cells, AA AAA lithium-ion batteries"
+    },
+    "majority_vote": {
+      "distribution": [
+        {
+          "code": "0901",
+          "eu_category": "Small equipment",
+          "name": "Household Monitoring and Control, smoke detectors and thermostats",
+          "rank": 1,
+          "share": 0.24324324324324326,
+          "votes": 9
+        },
+        {
+          "code": "0701",
+          "eu_category": "Small equipment",
+          "name": "Toys, racing sets and drones",
+          "rank": 2,
+          "share": 0.21621621621621623,
+          "votes": 8
+        },
+        {
+          "code": "0202",
+          "eu_category": "Small equipment",
+          "name": "Equipment for food preparation, toasters and grills",
+          "rank": 3,
+          "share": 0.13513513513513514,
+          "votes": 5
+        },
+        {
+          "code": "0902",
+          "eu_category": "Large equipment (excl. PV)",
+          "name": "Professional Monitoring and Control",
+          "rank": 4,
+          "share": 0.08108108108108109,
+          "votes": 3
+        },
+        {
+          "code": "GAP-BATT",
+          "eu_category": "Basel/HS non-UNU e-waste stream",
+          "name": "Portable batteries, dry cells, accumulator cells, AA AAA lithium-ion batteries",
+          "rank": 5,
+          "share": 0.05405405405405406,
+          "votes": 2
+        }
+      ],
+      "final_label": {
+        "code": "0901/0701/0202?",
+        "eu_category": "-",
+        "name": "mixed cluster (multi-candidate)"
+      },
+      "gap_vote_share": 0.05405405405405406,
+      "vote_confidence": "HETEROGENEOUS",
+      "winner": {
+        "code": "0901",
+        "name": "Household Monitoring and Control, smoke detectors and thermostats",
+        "share": 0.24324324324324326
+      }
+    },
+    "n_samples": 37,
+    "top_matches": [
+      {
+        "code": "0901",
+        "cosine": 0.10850737988948822,
+        "eu_category": "Small equipment",
+        "name": "Household Monitoring and Control, smoke detectors and thermostats",
+        "rank": 1
+      },
+      {
+        "code": "0701",
+        "cosine": 0.10588136315345764,
+        "eu_category": "Small equipment",
+        "name": "Toys, racing sets and drones",
+        "rank": 2
+      },
+      {
+        "code": "0106",
+        "cosine": 0.09891901910305023,
+        "eu_category": "Large equipment (excl. PV)",
+        "name": "Household Heating and Ventilation",
+        "rank": 3
+      },
+      {
+        "code": "0305",
+        "cosine": 0.09825736284255981,
+        "eu_category": "Small IT",
+        "name": "Telecommunications equipment excluding mobile phones",
+        "rank": 4
+      },
+      {
+        "code": "0202",
+        "cosine": 0.09596162289381027,
+        "eu_category": "Small equipment",
+        "name": "Equipment for food preparation, toasters and grills",
+        "rank": 5
+      }
+    ]
+  }
+}

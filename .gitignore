@@ -1,0 +1,13 @@
+# Data mentah & gambar besar tidak disertakan
+data/raw/
+data/processed/electronic/train/
+
+# Regenerable / intermediate
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+outputs/
+data/processed/electronic/kec_drowcula_dinov3/noun_embeddings.npy
+
+# Secrets
+.env

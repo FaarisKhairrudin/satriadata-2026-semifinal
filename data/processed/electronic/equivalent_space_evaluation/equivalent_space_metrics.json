@@ -1,0 +1,53 @@
+{
+  "clustering_rerun": false,
+  "post_hoc_only": true,
+  "table_1_common_dino_umap": [
+    {
+      "calinski_harabasz": 2108.9918465221,
+      "davies_bouldin": 1.145760444,
+      "k": 16,
+      "method": "DINOv3 + K-Means",
+      "metric_space": "common_dino_umap_3d",
+      "representation": "DINOv3",
+      "silhouette": 0.4655322433
+    },
+    {
+      "calinski_harabasz": 15648.2481026218,
+      "davies_bouldin": 0.4391815777,
+      "k": 17,
+      "method": "DINOv3 + DROWCULA",
+      "metric_space": "common_dino_umap_3d",
+      "representation": "DINOv3",
+      "silhouette": 0.6786210537
+    },
+    {
+      "calinski_harabasz": 14819.5659998517,
+      "davies_bouldin": 0.4557811398,
+      "k": 17,
+      "method": "KEC + DINOv3 + DROWCULA",
+      "metric_space": "common_dino_umap_3d",
+      "representation": "DINOv3+KEC",
+      "silhouette": 0.6712730527
+    }
+  ],
+  "table_2_native_diagnostics": [
+    {
+      "calinski_harabasz": 15648.2481026218,
+      "davies_bouldin": 0.4391815777,
+      "k": 17,
+      "method": "DINOv3 + DROWCULA",
+      "metric_space": "native_dino_umap_3d",
+      "representation": "DINOv3",
+      "silhouette": 0.6786210537
+    },
+    {
+      "calinski_harabasz": 15591.7438376847,
+      "davies_bouldin": 0.4370055654,
+      "k": 17,
+      "method": "KEC + DINOv3 + DROWCULA",
+      "metric_space": "native_fused_umap_3d",
+      "representation": "DINOv3+KEC",
+      "silhouette": 0.6827850938
+    }
+  ]
+}

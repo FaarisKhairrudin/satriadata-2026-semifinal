@@ -1,0 +1,19 @@
+{
+  "assignments_changed": false,
+  "clustering_rerun": false,
+  "dino_umap_sha256": "7edae378d10ba2bdde68c5655f84978dec326d7f1dcc1596b998f9885df84057",
+  "embedding_ids_sha256": "619d634e38eb4faa37d80ea62536217d22b63eb3b269f59fef39b35e75d15848",
+  "fused_umap_sha256": "d54833d70c833ee8f070f3d939ac72b04bcc13fbeaa359b6bdf435631b3aa906",
+  "metric_policy": {
+    "kmeans_note": "K-Means labels are evaluated in DROWCULA UMAP space only for comparability",
+    "table_1": "all existing labels evaluated in saved DINOv3-only UMAP 3-D",
+    "table_2": "DROWCULA labels evaluated in their native saved UMAP spaces"
+  },
+  "n_samples": 3961,
+  "post_hoc_only": true,
+  "selected_k_preserved": {
+    "dino_drowcula": 17,
+    "fused_drowcula": 17,
+    "pure_kmeans": 16
+  }
+}
