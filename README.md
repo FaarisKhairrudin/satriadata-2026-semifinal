@@ -98,7 +98,6 @@ data/
   processed/     # embedding, label, metrik, figures
 docs/
   Laporan/       # naskah karya ilmiah
-  research/      # catatan literatur dan metode
 requirements.txt
 ```
 
