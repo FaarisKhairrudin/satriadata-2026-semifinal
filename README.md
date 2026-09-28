@@ -147,6 +147,20 @@ docs/
 requirements.txt
 ```
 
-Artefak final ada di `data/processed/electronic/` — label produk
-(`final_cluster_labels.csv`), pemetaan nilai-bahaya (`cluster_risk_value.csv`),
-dan seluruh figur di `figures/`.
+## Hasil run (ter-commit di repo)
+
+Semua output run final tersimpan di repo, bukan hanya kodenya:
+
+| File | Isi |
+| --- | --- |
+| `data/processed/electronic/kec_drowcula_dinov3/final_cluster_labels.csv` | 17 cluster + label produk terverifikasi manusia + status voting |
+| `data/processed/electronic/kec_drowcula_dinov3/cluster_risk_value.csv` | EVI/HI + kuadran per cluster |
+| `data/processed/electronic/kec_drowcula_dinov3/cluster_grounding.csv/.json` | Voting SigLIP2 per cluster (bukti grounding) |
+| `data/processed/electronic/kec_drowcula_dinov3/final_metrics.json` | K=17, silhouette 0,6828, DB 0,4370 |
+| `data/processed/electronic/kec_drowcula_dinov3/k_search_scores.csv` | Skor silhouette/DBI K=2..25 (bukti pemilihan K) |
+| `data/processed/electronic/kec_drowcula_dinov3/figures/` | 48 figur: grid verifikasi per cluster, UMAP 3-D, matriks risk-value, insight |
+| `data/processed/electronic/drowcula_dinov3/` | Baseline DINOv3-only (pembanding ablasi) |
+| `data/processed/electronic/equivalent_space_evaluation/` | Evaluasi post-hoc antar label |
+
+Sidik sha256 tiap file kunci + cara verifikasi ulang:
+[`docs/RUN_EVIDENCE.md`](docs/RUN_EVIDENCE.md).
