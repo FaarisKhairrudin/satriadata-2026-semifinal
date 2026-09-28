@@ -23,8 +23,5 @@ Catatan:
 
 - `torch` varian CUDA dipakai untuk SigLIP2 (06) di GPU; CPU tetap jalan (lebih lambat).
 - `openai` + `OPENAI_API_KEY` hanya dibutuhkan bila KEC diregenerasi di 03
-  (`--overwrite` tanpa cache). Rerun normal tanpa `--overwrite` memakai cache.
+  (`--overwrite` tanpa cache). Run normal tanpa `--overwrite` memakai cache.
 - Korpus NLTK WordNet dibutuhkan bila KEC diregenerasi di 03.
-- `captions.csv` (milik alur teman: captioning/klasifikasi kondisi) tetap di repo
-  sebagai input audit 10, tapi generator caption tidak tercatat → hasil audit
-  `caption_audit_v1` berstatus UNVERIFIED/eksplorasi, bukan bukti pelabelan utama.

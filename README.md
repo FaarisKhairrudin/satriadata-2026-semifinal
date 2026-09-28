@@ -70,8 +70,26 @@ python3.12 -c "import nltk; nltk.download('wordnet')"         # untuk regenerasi
 ```
 
 Model DINOv3 dan SigLIP2 terunduh otomatis dari Hugging Face Hub saat run
-pertama. Kunci API (`OPENAI_API_KEY`, templat di `.env.example`) hanya
-diperlukan bila meregenerasi pengetahuan KEC — run normal memakai cache.
+pertama (publik, tanpa token).
+
+### Environment / API key
+
+| Kapan | Yang dibutuhkan |
+| --- | --- |
+| Reproduksi normal 01→08 (semua pakai cache) | **Tidak butuh key apa pun** |
+| Regenerasi KEC (`03` tanpa cache / `--overwrite`) | `OPENAI_API_KEY` (GPT-4o mining konsep/atribut) |
+| Notebook 06–07 (kondisi & rekomendasi) | `BAI_API_KEY` — diminta via `getpass` saat run, tidak lewat `.env` |
+| Notebook 05 (captioning) | Tanpa key; butuh instance RunPod RTX 4090 |
+
+Cara set kunci untuk skrip (`03` membaca env dulu, fallback parse `.env`):
+
+```bash
+cp .env.example .env    # lalu isi OPENAI_API_KEY=sk-...
+# atau
+export OPENAI_API_KEY=sk-...
+```
+
+`.env` tidak pernah di-commit (sudah di `.gitignore`).
 
 ## Cara pakai
 
