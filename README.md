@@ -47,6 +47,18 @@ dan [`04_labeling_insight_locked.ipynb`](code/notebook/04_labeling_insight_locke
 adalah versi locked dari pipeline di atas dengan output tersimpan — bisa dibaca
 tanpa run ulang.
 
+Lanjutan pipeline: alur mendapatkan kondisi barang (data mining condition),
+di `code/notebook/05-07`:
+
+| Notebook | Kerja singkat | Input | Output |
+| --- | --- | --- | --- |
+| [`05_caption_internvl3_runpod.ipynb`](code/notebook/05_caption_internvl3_runpod.ipynb) | Captioning InternVL3-8B di RunPod RTX 4090 | citra train | `captions.csv` per citra |
+| [`06_condition_jev_api.ipynb`](code/notebook/06_condition_jev_api.ipynb) | Klasifikasi kondisi fisik (Intact / Disassembled / Damaged) via API | `captions.csv` | `results.csv`, `summary.csv`, interpretasi |
+| [`07_recommendation_qwen38.ipynb`](code/notebook/07_recommendation_qwen38.ipynb) | Rekomendasi penanganan per cluster (≤80 kata) | kondisi + `cluster_risk_value.csv` | `recommendations.csv` |
+
+Alurnya berurutan: 05 → 06 → 07; kredensial API diminta via `getpass` saat
+run, tidak tersimpan di file.
+
 Detail tiap skrip: [`code/scripts/README.md`](code/scripts/README.md).
 
 ## Setup
