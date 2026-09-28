@@ -143,7 +143,6 @@ data/
   raw/           # data mentah (tidak disertakan; subset 1_Electronic dari penyisihan)
   processed/     # embedding, label, metrik, figures
 docs/
-  Laporan/       # naskah karya ilmiah
 requirements.txt
 ```
 
